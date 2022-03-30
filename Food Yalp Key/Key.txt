@@ -1,0 +1,22 @@
+Client ID
+A7CG9G8QgluUD61P2x9PZg
+
+API Key
+o3RdXadOhYOR5QzCyAFYI2PsRXgVlqVXQnbtkWiKuHYV7ca7Zb0HQjbDycyy03yIQT4Tfzpog_Q6Mcxt9nnU7iPX461sdPOYxLz23Uz1v16DJ9GGVLJVD5c8zN40YnYx
+
+
+
+
+
+
+Request
+GET https://api.yelp.com/v3/businesses/{id}
+
+Response Body:
+{
+    "error": {
+        "code": "BUSINESS_MIGRATED",
+        "description": "The requested business has been permanently migrated. Please access it using its new ID.",
+        "new_business_id": "gezgzYZ16YVGnCcnFvy6WQ"
+    }
+}
